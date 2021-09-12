@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body{
   background: #fcfcfc;
@@ -14,7 +15,7 @@ footer{
   background: #111;
   height: auto;
   width: 100vw;
-  font-family: "Open Sans";
+  font-family: Nunito Sans,sans-serif;
   padding-top: 40px;
   color: #fff;
 }
@@ -32,7 +33,7 @@ footer{
   line-height: 3rem;
 }
 .footer-content p{
-  max-width: 500px;
+  max-width: 700px;
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
