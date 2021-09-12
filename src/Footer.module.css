@@ -5,19 +5,19 @@
 
 }
 body{
-  background: #fcfcfc;
+  background: white;
 }
 footer{
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background: #111;
+  background: purple;
   height: auto;
   width: 100vw;
   font-family: Nunito Sans,sans-serif;
   padding-top: 40px;
-  color: #fff;
+  color: white;
 }
 .footer_content{
   display: flex;
@@ -53,16 +53,16 @@ footer{
   color: #fff;
 }
 .socials a i{
-  font-size: 1.1rem;
-  transition: color .4s ease;
+  font-size: 1.5rem;
+  transition: transform 150ms ease-in;
 
 }
 .socials a:hover i{
-  color: aqua;
+  transform: scale(1.5);
 }
 
 .footer_bottom{
-  background: #000;
+  background: rgb(59, 1, 59);
   width: 100vw;
   padding: 20px 0;
   text-align: center;
